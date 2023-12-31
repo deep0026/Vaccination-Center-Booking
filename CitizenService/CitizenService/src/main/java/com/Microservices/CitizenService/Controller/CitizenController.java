@@ -34,7 +34,7 @@ public class CitizenController {
             return new ResponseEntity<>(save, HttpStatus.OK);
         }
         else {
-            return new ResponseEntity<>("enter valid", HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("only"+" "+"center=1"+" "+"center=2"+" "+"are Available", HttpStatus.BAD_REQUEST);
         }
     }
     @GetMapping("/list")
